@@ -1,0 +1,61 @@
+.navbar {
+  color: white;
+}
+
+.background-header {
+  background-image: url("img/banner.jpg");
+  background-color: white;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.service-style {
+  margin-top: 15px;
+  background-color: #fafbfc;
+}
+
+h2:before,
+h2:after {
+  background-color: black;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 25%;
+}
+
+h2::before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+h2::after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.habout:before,
+.habout:after {
+  background-color: rgb(255, 255, 255);
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 25%;
+}
+
+.habout::before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+.habout::after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.cover {
+  background: no-repeat center/cover;
+}
